@@ -12,6 +12,17 @@ this creates a window with a game of size 4 tiles by 4 tiles. If you wish to cre
 
 `java Slidegame 5 7`
 
+To compile the the JUnit tests, run
+
+ `javac -d ./ -cp ./junit-4.10.jar ./SlideGameTester.java ./SlideGame.java`
+
+  from the root directory of the repository (for example on my MacOS computer the root directory of this repository is `/Users/Max/GitHub/SlideGame`), then
+
+  `java -cp .:junit-4.10.jar org.junit.runner.JUnitCore SlideGameTester`
+
+  from the same root directory of the repository
+
+
 Slidegame depends on a connection to the world wide web for button coloring.
 
 |Operation           |Control |
